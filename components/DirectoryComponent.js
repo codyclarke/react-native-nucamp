@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { TextPropTypes } from "react-native";
 import { View, FlatList } from "react-native";
 import { Tile } from "react-native-elements";
 import { connect } from "react-redux";
 import { baseUrl } from "../shared/baseUrl";
 import Loading from "./LoadingComponent";
 import * as Animatable from "react-native-animatable";
+
 
 const mapStateToProps = (state) => {
   return {
