@@ -168,7 +168,7 @@ class RegisterTab extends Component {
   processImage = async (imgUri) => {
     const processedImage = await ImageManipulator.manipulateAsync(
       imgUri,
-      [{ resize: { width: "400px" } }],
+      [{ resize: { width: 400 } }],
       {
         format: "png",
       }
